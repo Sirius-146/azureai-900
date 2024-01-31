@@ -1,0 +1,49 @@
+{    
+    "model":
+        {
+        "Inputs": {
+            "data": [
+            {
+                "day": 0,
+                "mnth": 0,
+                "year": 0,
+                "season": 0,
+                "holiday": 0,
+                "weekday": 0,
+                "workingday": 0,
+                "weathersit": 0,
+                "temp": 0.0,
+                "atemp": 0.0,
+                "hum": 0.0,
+                "windspeed": 0.0
+            }
+            ]
+        },
+        "GlobalParameters": 0.0
+        },
+        
+    "example":
+        {
+        "Inputs": {
+            "data": [
+            {
+                "day": 22,
+                "mnth": 10,
+                "year": 2021,
+                "season": 2,
+                "holiday": 0,
+                "weekday": 4,
+                "workingday": 1,
+                "weathersit": 2,
+                "temp": 0.3,
+                "atemp": 0.3,
+                "hum": 0.3,
+                "windspeed": 0.2
+            }
+            ]
+        },
+        "GlobalParameters": 1.0,
+        "Results": [
+            352.42354217556004
+        ]}
+}
